@@ -21,7 +21,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <style type="text/css">
         body{ font: 14px sans-serif; 
               text-align: center; 
-              background:url(https://picjumbo.com/wp-content/uploads/half-of-macbook-pro-2013_free_stock_photos_picjumbo_IMG_4923-2210x1473.jpg)no-repeat;
+              background:url(https://cdn.pixabay.com/photo/2016/08/05/09/21/leaf-1571833_960_720.jpg)no-repeat;
               background-size:cover;
               color:white;
               }
