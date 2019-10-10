@@ -19,7 +19,7 @@ if (isset($_SESSION['UUID']) and isset($_SESSION['username'])) {
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
    
 </head>
-<body class="login">
+<body class="signup">
 <div class=" signup card text-center">
 	<div class=" col-lg-12">
 		<h1 class="card-title text-center text-warning">Signup</h1>
