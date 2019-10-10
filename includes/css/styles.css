@@ -1,0 +1,36 @@
+body{
+    color:white;
+    font-weight: bold;
+    
+}
+.login{
+    background: url(https://cdn.pixabay.com/photo/2018/06/20/07/33/planner-3485976_960_720.jpg);
+    background-size: cover;
+}
+div.wrapper {
+    width: 350px;
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+    background: rgba(0, 0, 0, 0.7);
+}
+div.signup {
+    width: 300px;
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.card-title{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+input{
+    width: 280px;
+    padding:10px;
+    font-size: 16px;
+}
