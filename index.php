@@ -86,7 +86,7 @@ if (!isset($_SESSION['UUID']) and !isset($_SESSION['username'])) {
       <br>
       <p>
         
-        <a href="logout.php" class="btn btn yellow black-text ">SIGNOUT</a>
+        <a href="logout.php" class="btn btn yellow black-text waves-effect ">SIGNOUT</a>
     </p>
   </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
