@@ -10,6 +10,8 @@ body{
 }
 .signup{
     background: url(https://cdn.pixabay.com/photo/2016/08/12/11/27/umbrella-1588167_960_720.jpg);
+    background-size: cover;
+    
 }
 div.wrapper {
     width: 350px;
@@ -17,7 +19,7 @@ div.wrapper {
     margin-left:auto;
     margin-right:auto;
     margin-top:10%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
 }
 div.signup {
     width: 300px;
@@ -25,7 +27,7 @@ div.signup {
     margin-left:auto;
     margin-right:auto;
     margin-top:10%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
 }
 .card-title{
     text-align: center;
