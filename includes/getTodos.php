@@ -27,7 +27,7 @@ if ($r->rowCount() == 0){
        if ($row['completed'] == 1) {
            echo "<li class='checked'>".$row['title']."</li>";
        }else{
-           echo "<li>".$row['title'] ,$row['created'] ."</li> ";
+           echo "<li>".$row['title'],"<br>" ,$row['created'] ."</li> ";
        }
    
    }
