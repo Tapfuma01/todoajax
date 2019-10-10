@@ -97,7 +97,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link href="css/styles.min.css" rel="stylesheet">
     <style type="text/css">
         body{ font: 14px sans-serif;
-            background:url(https://picjumbo.com/wp-content/uploads/black-and-white-creative-workspace-office-setup_free_stock_photos_picjumbo_DSC06108-2210x1473.jpg)no-repeat;
+            background:url(https://cdn.pixabay.com/photo/2016/08/12/11/27/umbrella-1588167_960_720.jpg)no-repeat;
             background-size:cover;
             color:white;
          }

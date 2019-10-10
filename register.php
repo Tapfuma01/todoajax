@@ -102,7 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link href="css/styles.min.css" rel="stylesheet">
     <style type="text/css">
         body{ font: 16px sans-serif; 
-            background:url(https://picjumbo.com/wp-content/uploads/webdesigners-sticky-notes-free-photo-2210x1528.jpg)no-repeat;
+            background:url(https://cdn.pixabay.com/photo/2013/07/27/05/10/oldtimer-168127_960_720.jpg)no-repeat;
             background-size:cover;
             color:white;
             
@@ -118,7 +118,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         p{
             font-size:14px;
         }
-        
+        .size{
+            font-size:16px;
+        }
     </style>
 </head>
 <body>
@@ -144,8 +146,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <span class="help-block"><?php echo $confirm_password_err; ?></span>
                 </div>
                 <div class="form-group">
-                    <input type="submit" class="btn btn-black " value="Submit">
-                    <input  type="reset" class="btn btn-white" value="Reset">
+                    <input type="submit" class="btn btn-black size text-center " value="Submit">
+                    
                 </div>
                 <p>Already have an account? <a class="text-warning" href="login.php">Login here</a>.</p>
             </form>

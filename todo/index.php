@@ -38,7 +38,7 @@ $result = $statement->fetchAll();
    }
   </style>
  </head>
- <body bgcolor=yellow>
+ <body bgcolor="yellow"ß>
   
   <br />
   <br />

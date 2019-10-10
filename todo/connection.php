@@ -5,10 +5,9 @@
 
 $connect = new PDO("mysql:host=localhost;dbname=todoajax", "root", "");
 
-//session_start();
+ session_start();
 
-$_SESSION["user_id"] = "1";
+ $_SESSION["user_id"] = "1";
 
 ?>
-
 

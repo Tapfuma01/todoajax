@@ -6,9 +6,9 @@ define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_NAME', 'todoajax');
 
-session_start();
+ session_start();
 
-$_SESSION["user_id"] = "1";
+ $_SESSION["user_id"] = "";
  
 /* Attempt to connect to MySQL database */
 try{
