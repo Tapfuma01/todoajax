@@ -65,7 +65,7 @@ if (!isset($_SESSION['UUID']) and !isset($_SESSION['username'])) {
    <body class="mainBody">
     <div class="main">
       <div id="myDIV" class="header">
-         <h2 class="text-warning" style="margin:5px">My To Do List</h2>
+         <h2 class="text-black" style="margin:5px">T0 DO LIST</h2>
          <input type="text" id="myInput" placeholder="Eat Lunch....">
          <span onclick="newElement()" class="fas fa-plus red-text"></span>
          <select onchange="newSort()" class="fas fa-sort" id="changeSort">
