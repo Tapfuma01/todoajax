@@ -67,7 +67,7 @@ if (!isset($_SESSION['UUID']) and !isset($_SESSION['username'])) {
       <div id="myDIV" class="header">
          <h2 class="text-black" style="margin:5px">T0 DO LIST</h2>
          <input type="text" id="myInput" placeholder="Eat Lunch....">
-         <span onclick="newElement()" class="fas fa-plus red-text"></span>
+         <span onclick="newElement()" class="btn-floating btn-yellow btn-lg fas fa-plus "></span>
          <select onchange="newSort()" class="fas fa-sort" id="changeSort">
             <option value="newOld" <?php if ($sort == "newOld"){echo "selected";} ?> >New - Old</option>
             <option value="oldNew" <?php if ($sort == "oldNew"){echo "selected";} ?> >Old - New</option>
