@@ -20,7 +20,7 @@ switch ($sort){
 $r->bindValue(':uuid',$UUID);
 $r->execute();
 if ($r->rowCount() == 0){
-   echo "<h3></h3>";
+   echo "<h3>add new task</h3>";
    $empty = true;
 }else{
    while ($row = $r->fetch(PDO::FETCH_ASSOC)) {
@@ -29,7 +29,7 @@ if ($r->rowCount() == 0){
        }else{
            echo "<li>".$row['title']."</li>";
        }
-       echo "<li>" . $row['created'] . "</li>";
+    
    }
 }
 ?>
