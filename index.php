@@ -11,11 +11,13 @@ if (!isset($_SESSION['UUID']) and !isset($_SESSION['username'])) {
 <html>
    <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="./includes/css/main1.css">
+        <link rel="stylesheet" type="text/css" href="./includes/css/main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <!-- Material Design Bootstrap -->
           <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
           <link href="css/styles.min.css" rel="stylesheet">
+          <!-- Font Awesome -->
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -63,10 +65,10 @@ if (!isset($_SESSION['UUID']) and !isset($_SESSION['username'])) {
    <body class="mainBody">
     <div class="main">
       <div id="myDIV" class="header">
-         <h2 style="margin:5px">My To Do List</h2>
+         <h2 class="text-warning" style="margin:5px">My To Do List</h2>
          <input type="text" id="myInput" placeholder="Eat Lunch....">
-         <span onclick="newElement()" class="addBtn">Add</span>
-         <select onchange="newSort()" class="changeSort" id="changeSort">
+         <span onclick="newElement()" class="fas fa-plus red-text"></span>
+         <select onchange="newSort()" class="fas fa-sort" id="changeSort">
             <option value="newOld" <?php if ($sort == "newOld"){echo "selected";} ?> >New - Old</option>
             <option value="oldNew" <?php if ($sort == "oldNew"){echo "selected";} ?> >Old - New</option>
             <option value="az" <?php if ($sort == "az"){echo "selected";} ?> >A - Z</option>
@@ -84,7 +86,7 @@ if (!isset($_SESSION['UUID']) and !isset($_SESSION['username'])) {
       <br>
       <p>
         
-        <a href="logout.php" class="btn btn-danger ">Sign Out of Your Account</a>
+        <a href="logout.php" class="btn btn-transparent white-text ">Sign Out of Your Account</a>
     </p>
   </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
